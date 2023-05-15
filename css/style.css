@@ -55,7 +55,7 @@ body{
 
 .galeria{
   background-color: #0E1513;
-  padding-top:40px;
+  padding:40px 0;
 }
 
 @media (min-width:1024px) {
@@ -79,9 +79,12 @@ body{
   color: #fff;
 }
 
-.work{
+.container__bg{
   background: linear-gradient(90deg, #323E2A 0%, #101815 100%);
-  padding-top:40px;
+}
+
+.work{
+  padding:40px 0;
 }
 
 @media (min-width:1024px) {
@@ -99,5 +102,63 @@ body{
   border-radius: 5px;
   font-size: 16px;
   font-weight: 400;
-  margin-top: 40px;
+}
+
+@media (min-width:1024px) {
+  .work_button{
+    margin-top: 40px;
+  }
+}
+
+.collection{
+  padding:40px 0;
+}
+
+@media (min-width:1024px) {
+  .collection{
+    padding: 80px 120px;
+  }
+}
+
+
+.collection__button{
+  width: fit-content;
+  background-color: transparent;
+  color: #FC4308;
+  border: 1px solid #FC4308;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.banner{
+  background-color: #0E1513;
+  padding:40px 0;
+}
+
+.banner div:first-child{
+  max-width: 674px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner h2{
+  font-size: clamp(3rem, 10vw, 100px);
+}
+
+.banner p{
+  font-size: 16px;
+}
+
+.banner__button{
+  width: fit-content;
+  background-color: transparent;
+  color: #FC4308;
+  border: 1px solid #FC4308;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 48px;
 }
