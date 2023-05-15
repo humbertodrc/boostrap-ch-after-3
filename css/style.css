@@ -55,7 +55,13 @@ body{
 
 .galeria{
   background-color: #0E1513;
-  padding: 80px 120px;
+  padding-top:40px;
+}
+
+@media (min-width:1024px) {
+  .galeria{
+    padding: 80px 120px;
+  }
 }
 
 .galeria__button{
@@ -71,4 +77,27 @@ body{
 .galeria__button:hover{
   background-color: #FC4308;
   color: #fff;
+}
+
+.work{
+  background: linear-gradient(90deg, #323E2A 0%, #101815 100%);
+  padding-top:40px;
+}
+
+@media (min-width:1024px) {
+  .work{
+    padding: 80px 120px;
+  }
+}
+
+.work_button{
+  width: fit-content;
+  background-color: transparent;
+  color: #FC4308;
+  border: 1px solid #FC4308;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 40px;
 }
