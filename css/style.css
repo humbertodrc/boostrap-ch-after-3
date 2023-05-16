@@ -2,6 +2,9 @@ body{
   color: #FC4308;
 }
 
+
+/* Header */
+
 .header__bg {
 	background: linear-gradient(
 			233.95deg,
@@ -12,6 +15,8 @@ body{
 		#ffffff;
 	background-blend-mode: multiply, multiply, normal;
 }
+
+/* Personalizar el Navbar */
 
 .navbar a{
   color: #FC4308;
@@ -37,6 +42,8 @@ body{
   background-color: #FC4308;
 }
 
+/* Contenido Header */
+
 .header__content{
   height: calc(100vh - 56px);
 }
@@ -52,6 +59,8 @@ body{
     object-fit: cover;
   }
 }
+
+/* Galeria */
 
 .galeria{
   background-color: #0E1513;
@@ -83,6 +92,8 @@ body{
   background: linear-gradient(90deg, #323E2A 0%, #101815 100%);
 }
 
+/* Works */
+
 .work{
   padding:40px 0;
 }
@@ -110,6 +121,9 @@ body{
   }
 }
 
+
+/* Collection */
+
 .collection{
   padding:40px 0;
 }
@@ -131,6 +145,8 @@ body{
   font-size: 16px;
   font-weight: 400;
 }
+
+/* Banner pre-footer */
 
 .banner{
   background-color: #0E1513;
@@ -162,3 +178,33 @@ body{
   font-weight: 400;
   margin-top: 48px;
 }
+
+/* Footer */
+footer{
+  background-color: #0E1513;
+}
+
+.footer__content{
+  padding: 40px 0;
+}
+
+@media (min-width:1024px) {
+  .footer__content{
+    padding: 80px 120px;
+  }
+}
+
+.footer__nav{
+  border-bottom: 1px solid #FC4308;
+  padding-bottom: 40px;
+}
+
+.footer__content nav ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+
+
