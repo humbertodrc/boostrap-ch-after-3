@@ -1,0 +1,28 @@
+.header__bg {
+  background: linear-gradient(233.95deg, #0d1e20 -73.12%, #313e2a 53.36%, #262d20 103.17%), #ffffff;
+  background-blend-mode: multiply, multiply, normal;
+}
+
+.navbar a {
+  color: #FC4308;
+}
+.navbar .collapse li a {
+  color: #FC4308;
+}
+.navbar .collapse.navbar-collapse {
+  flex-grow: inherit;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-toggler {
+  border: 1px solid #FC4308;
+  padding: 2px;
+}
+.navbar .navbar-toggler-icon {
+  background-color: #FC4308;
+}
+
+.home {
+  color: #FC4308;
+}/*# sourceMappingURL=main.css.map */

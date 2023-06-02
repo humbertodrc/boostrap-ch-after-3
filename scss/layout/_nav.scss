@@ -1,0 +1,51 @@
+.navbar{
+  a{
+    color: $primary;
+  }
+
+  .collapse li a{
+    color: $primary;
+  }
+
+  .collapse.navbar-collapse{
+    flex-grow: inherit;
+  }
+
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+
+  .navbar-toggler{
+    border: 1px solid $primary;
+    padding: 2px;
+  }
+
+  .navbar-toggler-icon{
+    background-color: $primary;
+  }
+}
+
+
+// .navbar a{
+//   color: #FC4308;
+// }
+
+// .navbar .collapse li a{
+//   color: #FC4308;
+// }
+
+// .navbar .collapse.navbar-collapse{
+//   flex-grow: inherit;
+// }
+
+// .navbar .navbar-toggler:focus{
+//   box-shadow: none;
+// }
+
+// .navbar .navbar-toggler{
+//   border: 1px solid #FC4308;
+// }
+
+// .navbar .navbar-toggler-icon{
+//   background-color: #FC4308;
+// }
