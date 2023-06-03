@@ -1,11 +1,11 @@
-body{
+/* body{
   color: #FC4308;
-}
+} */
 
 
 /* Header */
 
-.header__bg {
+/* .header__bg {
 	background: linear-gradient(
 			233.95deg,
 			#0d1e20 -73.12%,
@@ -14,11 +14,11 @@ body{
 		),
 		#ffffff;
 	background-blend-mode: multiply, multiply, normal;
-}
+} */
 
 /* Personalizar el Navbar */
 
-.navbar a{
+/* .navbar a{
   color: #FC4308;
 }
 
@@ -40,29 +40,29 @@ body{
 
 .navbar .navbar-toggler-icon{
   background-color: #FC4308;
-}
+} */
 
 /* Contenido Header */
 
-.header__content{
+/* .header__content{
   height: calc(100vh - 56px);
 }
 
 .header__img{
   width: 220px;
-}
+} */
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .header__img{
     width: auto;
     height: auto;
     object-fit: cover;
   }
-}
+} */
 
 /* Galeria */
 
-.galeria{
+/* .galeria{
   background-color: #0E1513;
   padding:40px 0;
 }
@@ -71,9 +71,9 @@ body{
   .galeria{
     padding: 80px 120px;
   }
-}
+} */
 
-.galeria__button{
+/* .galeria__button{
   background-color: transparent;
   color: #FC4308;
   border: 1px solid #FC4308;
@@ -86,7 +86,7 @@ body{
 .galeria__button:hover{
   background-color: #FC4308;
   color: #fff;
-}
+} */
 
 .container__bg{
   background: linear-gradient(90deg, #323E2A 0%, #101815 100%);
